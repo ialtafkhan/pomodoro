@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+
+.intertval-conatiner {
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+
+
+}
+
+.intertval-length-container {
+  display: flex;
+
+}
+
+button {
+  padding: 5px 10px;
+  margin: 25px;
+  background-color: #263646;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 70px;
+  border-radius: 2px;
+  /* align-items: center; */
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.interval-length {
+  font-size: 2rem;
+  margin: 0 10px;
+
+}
+
+.timer-container {
+  border: 2px solid #263646;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 25px;
+  width: 250px;
+
+  /* justify-content: center; */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(109, 76, 76, 0.5);
+  padding: 10px;
+  /* background-color: red; */
+
+}
+
+.timer {
+  font-size: 1.5rem;
+
+
+}
+
+.timer-actions {
+  margin-top: 20px;
+  text-align: center;
+}
